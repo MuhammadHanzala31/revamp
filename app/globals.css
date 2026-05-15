@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
 
 @theme inline {
   --color-background: var(--background);
@@ -11,4 +14,13 @@
 
 body {
   font-family: var(--font-neue-montreal), Arial, sans-serif;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 50s linear infinite;
 }

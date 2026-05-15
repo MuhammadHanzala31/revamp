@@ -14,7 +14,7 @@ const icons = [
  
 export default function SocialSidebar() {
   return (
-    <div className="fixed left-13 top-1/2 -translate-y-1/2 z-50 flex flex-col items-center">
+    <div className="absolute left-13 top-1/2 -translate-y-1/2 z-10 flex flex-col items-center">
  
       {/* Sidebar pill wrapper */}
       <div
@@ -26,7 +26,6 @@ export default function SocialSidebar() {
           boxShadow: "0 8px 32px rgba(0,0,0,0.45)",
         }}
       >
-        {/* Top line */}
         <div
           className="w-px"
           style={{

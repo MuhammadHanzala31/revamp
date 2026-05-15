@@ -109,7 +109,7 @@ export default function Navbar() {
                             {/* Mega Menu */}
                             {megaMenu && (
                                 <div
-                                    className="absolute left-30 mx-auto top-[calc(100%+56px)] -translate-x-1/2 w-[90vw] rounded-[28px] border border-white/10 bg-black p-10 shadow-[0_0_80px_rgba(0,0,0,0.8)]"
+                                    className="absolute left-30 mx-auto top-[calc(100%+56px)] -translate-x-1/2 w-[90vw] z-99999 rounded-[28px] border border-white/10 bg-black/70 p-10 shadow-[0_0_80px_rgba(0,0,0,0.8)]"
                                     onMouseEnter={openMenu}
                                     onMouseLeave={scheduleClose}
                                 >

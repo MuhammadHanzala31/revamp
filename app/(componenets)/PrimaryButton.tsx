@@ -25,7 +25,7 @@ export default function Button({
     disabled = false,
 }: ButtonProps) {
     const baseStyles =
-        ' transition-all duration-300 cursor-pointer hover:scale-[1.1]'
+        ' transition-all w-fit duration-300 cursor-pointer hover:scale-[1.1]'
 
     const variants = {
         primary:

@@ -3,6 +3,8 @@ import "./globals.css";
 import { aeonik, neueMontreal } from "./fonts";
 import Navbar from "./(componenets)/Navbar";
 import 'remixicon/fonts/remixicon.css'
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -19,7 +21,7 @@ export default function RootLayout({
       lang="en"
       className={`${aeonik.variable} ${neueMontreal.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col bg-black">{children}</body>
     </html>
   );
 }
