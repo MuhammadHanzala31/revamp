@@ -104,7 +104,7 @@ function CaseInfo({ data } : any) {
         <p className="text-[16px] text-[#CFCFCF] font-normal font-neue-montreal leading-relaxed">{data.strategy}</p>
       </div>
 
-      <div className="flex gap-5 flex-wrap mt-1">
+      <div className="flex gap-2 lg:flex-nowrap flex-wrap mt-1">
        <Button text="Visit Website" variant="primary"/>
        <Button text="Read Case study" variant="outline"/>
       </div>
@@ -125,12 +125,12 @@ export default function CaseStudySlider() {
   return (
     <section className="overflow-hidden mt-14 relative">
       {/* Tabs */}
-      <div className="flex justify-between overflow-x-auto scrollbar-hide px-7">
+      <div className="flex justify-between overflow-x-hidden scrollbar-hide flex-wrap">
         {TABS.map((tab, i) => (
           <button
             key={tab}
             onClick={() => handleTabClick(i)}
-            className={`px-5 py-4 text-3xl cursor-pointer font-medium whitespace-nowrap border-b-2 transition-all duration-200 ${activeTab === i
+            className={`px-5 py-4 text-[1.563vw] cursor-pointer font-medium whitespace-nowrap border-b-2 transition-all duration-200 ${activeTab === i
                 ? "text-white border-white"
                 : "text-[#555] border-transparent hover:text-[#aaa]"
               }`}

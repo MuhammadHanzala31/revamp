@@ -9,7 +9,7 @@ export default function CaseStudies() {
             <div className='flex flex-row items-center justify-between'>
                 <div className='flex flex-col gap-4 w-[40%]'>
                     <Badge text='Case Studies' />
-                    <h3 className='text-white font-aeonik text-[64px] font-medium leading-[60px]'>
+                    <h3 className='text-white font-aeonik text-[3.333vw] font-medium leading-[60px]'>
                         Real Results. Real Business Growth.
                     </h3>
                 </div>

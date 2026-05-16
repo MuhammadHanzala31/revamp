@@ -3,7 +3,7 @@ import ClientSlider from './ClientSlider'
 
 export default function Clients() {
   return (
-    <section className='bg-black w-[90%] mx-auto relative -top-18
+    <section className='bg-black w-[90%] mx-auto relative -top-[3.75vw]
      rounded-4xl flex flex-col gap-12 py-9 shadow shadow-gray-900'>
         <h4 className='max-w-146 w-full text-5xl mx-auto text-center text-white'>Trusted by Businesses That Care About Growth</h4>
          <ClientSlider/>
