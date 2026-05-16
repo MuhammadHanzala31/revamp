@@ -69,7 +69,7 @@ const services = [
 
 export default function ServicesNav() {
     const [active, setActive] = useState(services[0]);
-    const [hoveredSub, setHoveredSub] = useState(null);
+    const [hoveredSub, setHoveredSub] = useState<number | null>(null);
 
     return (
         <section className="min-h-screen relative text-white flex flex-col justify-center px-6 md:px-16 lg:px-24 py-20 font-sans">
