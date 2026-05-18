@@ -6,6 +6,9 @@ import CaseStudies from "./(componenets)/CaseStudies";
 import ServicesNav from "./(componenets)/Services";
 import ChooseUs from "./(componenets)/ChooseUs";
 import Testimonial from "./(componenets)/Testimonial";
+import Faqs from "./(componenets)/FaqsSection";
+import RequestForm from "./(componenets)/RequestFormSection";
+import RequestFormSection from "./(componenets)/RequestFormSection";
 
 export default function Home() {
   return (
@@ -19,6 +22,8 @@ export default function Home() {
       <ServicesNav/>
       <ChooseUs/>
       <Testimonial/>
+      <Faqs/>
+      <RequestFormSection/>
     </main>
   );
 }

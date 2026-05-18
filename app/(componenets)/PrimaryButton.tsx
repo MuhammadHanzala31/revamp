@@ -29,7 +29,7 @@ export default function Button({
 
     const variants = {
         primary:
-            'bg-[#7C1874] border border-[#7C1874] shadow-md shadow-[#7C1874] rounded-full text-[#F3F3F3] font-neue-montreal font-[400] text-[16px] hover:opacity-90 px-[18px] py-[10px] flex items-center gap-2',
+            'bg-[#7C1874]  border-[#FF00EB] border-l-[3px] border-b shadow-md shadow-[#7C1874] rounded-full text-[#F3F3F3] font-neue-montreal font-[400] text-[16px] hover:opacity-90 px-[18px] py-[10px] flex items-center gap-2',
         secondary:
             'bg-black text-white hover:bg-neutral-800',
         outline:
