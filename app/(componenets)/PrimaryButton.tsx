@@ -10,7 +10,7 @@ type ButtonProps = {
     href?: string
     onClick?: () => void
     type?: 'button' | 'submit' | 'reset'
-    variant?: 'primary' | 'secondary' | 'outline'
+    variant?: 'primary' | 'secondary' | 'outline' | 'simple'
     className?: string
     disabled?: boolean
 }
@@ -32,6 +32,7 @@ export default function Button({
             'bg-[#7C1874]  border-[#FF00EB] border-l-[3px] border-b shadow-md shadow-[#7C1874] rounded-full text-[#F3F3F3] font-neue-montreal font-[400] text-[1.111vw] hover:opacity-90 px-[1.25vw] py-[0.694vw] flex items-center gap-2',
         secondary:
             'bg-black text-white hover:bg-neutral-800',
+            simple : 'bg-[#7C1874]  shadow-md shadow-[#7C1874] rounded-full text-[#F3F3F3] font-neue-montreal font-[400] text-[1.111vw] hover:opacity-90 px-[1.25vw] py-[0.694vw] flex items-center gap-2',
         outline:
             'bg-transparent shadow-lg border border-[#F3F3F3] rounded-[3.472vw] text-[#F3F3F3] font-neue-montreal font-[400] text-[1.111vw] hover:opacity-90 px-[1.25vw] py-[0.694vw] flex items-center gap-2',
     }

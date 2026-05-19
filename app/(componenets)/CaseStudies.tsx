@@ -15,7 +15,7 @@ export default function CaseStudies() {
                 </div>
                 <div className='flex flex-col gap-4 lg:w-1/2'>
                     <p className='text-[1.111vw] text-white font-normal'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                     <Button text='View All Case Studies' variant='primary'/>
+                     <Button text='View All Case Studies' variant='simple'/>
                 </div>
             </div>
             <CaseStudySlider/>

@@ -105,7 +105,7 @@ function CaseInfo({ data } : any) {
       </div>
 
       <div className="flex gap-2 lg:flex-nowrap flex-wrap mt-1">
-       <Button text="Visit Website" variant="primary"/>
+       <Button text="Visit Website" variant="simple"/>
        <Button text="Read Case study" variant="outline"/>
       </div>
     </div>
