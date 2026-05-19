@@ -9,10 +9,10 @@ import Image from 'next/image'
 
 export default function Testimonial() {
     return (
-        <section className='px-[64px] my-[80px]'>
+        <section className='px-[4.444vw] my-[5.556vw]'>
             <div className='flex flex-col items-center max-w-[57.571vw] w-full mx-auto text-center gap-6'>
                 <Badge text='Client Testimonials & Reviews' />
-                <h3 className='text-white font-aeonik text-[3.333vw] font-medium leading-[60px]'>
+                <h3 className='text-white font-aeonik text-[3.333vw] font-medium leading-[4.167vw]'>
                     What Our Happy Clients Say About Us
                 </h3>
                 <p className='text-white text-xl font-neue-montreal font-normal text-center'>Instead of relying on one-size-fits-all templates or disconnected campaigns, SISPN Tech creates custom solutions powered by AI, strategy, and execution that are built around results.</p>

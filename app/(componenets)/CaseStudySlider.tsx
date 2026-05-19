@@ -74,7 +74,7 @@ function CaseInfo({ data } : any) {
   return (
     <div className="flex flex-col gap-4 w-[30%]">
       <div className="flex  flex-col gap-5">
-        <div className="w-11 h-11 rounded-lg bg-[#1e1e1e] border border-[#2a2a2a] flex items-center justify-center text-[9px] text-[#666] font-bold tracking-widest">
+        <div className="w-11 h-11 rounded-lg bg-[#1e1e1e] border border-[#2a2a2a] flex items-center justify-center text-[0.625vw] text-[#666] font-bold tracking-widest">
           LOGO
         </div>
         <span className="text-4xl text-white font-aeonik font-bold">{data.name}</span>
@@ -82,26 +82,26 @@ function CaseInfo({ data } : any) {
 
       <div>
         <div className="flex items-baseline gap-2.5">
-          <span className="text-[56px] font-aeonik font-bold text-white tracking-tight">{data.revenueFrom}</span>
-          <span className="text-[56px] font-bold text-[#444]">→</span>
-          <span className="text-[56px] font-aeonik font-bold text-white tracking-tight">{data.revenueTo}</span>
+          <span className="text-[3.889vw] font-aeonik font-bold text-white tracking-tight">{data.revenueFrom}</span>
+          <span className="text-[3.889vw] font-bold text-[#444]">→</span>
+          <span className="text-[3.889vw] font-aeonik font-bold text-white tracking-tight">{data.revenueTo}</span>
         </div>
       </div>
 
       <div className="flex flex-col gap-1">
         <p className="text-xl font-medium text-white font-neue-montreal tracking-widest uppercase">{data.label}</p>
-        <p className="text-[32px] font-neue-montreal font-medium text-white">{data.category}</p>
+        <p className="text-[2.222vw] font-neue-montreal font-medium text-white">{data.category}</p>
       </div>
 
 
       <div className="flex flex-col gap-1">
         <span className="text-xl text-white font-medium font-neue-montreal tracking-widest uppercase">Problem</span>
-        <p className="text-[16px] text-[#CFCFCF] font-normal font-neue-montreal leading-relaxed">{data.problem}</p>
+        <p className="text-[1.111vw] text-[#CFCFCF] font-normal font-neue-montreal leading-relaxed">{data.problem}</p>
       </div>
 
       <div className="flex flex-col gap-1">
         <span className="text-xl text-white font-medium font-neue-montreal tracking-widest uppercase">Strategy</span>
-        <p className="text-[16px] text-[#CFCFCF] font-normal font-neue-montreal leading-relaxed">{data.strategy}</p>
+        <p className="text-[1.111vw] text-[#CFCFCF] font-normal font-neue-montreal leading-relaxed">{data.strategy}</p>
       </div>
 
       <div className="flex gap-2 lg:flex-nowrap flex-wrap mt-1">

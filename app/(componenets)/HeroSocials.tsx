@@ -18,7 +18,7 @@ export default function SocialSidebar() {
  
       {/* Sidebar pill wrapper */}
       <div
-        className="flex flex-col items-center py-5 rounded-[30px]"
+        className="flex flex-col items-center py-5 rounded-[2.083vw]"
         style={{
           background: "rgba(255,255,255,0.03)",
           border: "1px solid rgba(255,255,255,0.08)",
@@ -29,13 +29,13 @@ export default function SocialSidebar() {
         <div
           className="w-px"
           style={{
-            height: 50,
+            height: '3.472vw',
             background: "linear-gradient(to bottom, transparent, rgba(255,255,255,0.15))",
           }}
         />
  
         {/* Icons */}
-        <div className="flex flex-col items-center gap-[10px] px-[10px] my-1">
+        <div className="flex flex-col items-center gap-[0.694vw] px-[0.694vw] my-1">
           {icons.map(({ icon, tooltip, href }) => (
             <a
               key={icon}
@@ -45,8 +45,8 @@ export default function SocialSidebar() {
               title={tooltip}
               className="group relative flex items-center justify-center rounded-full transition-all duration-300"
               style={{
-                width: 40,
-                height: 40,
+                width: '2.778vw',
+                height: '2.778vw',
                 background: "rgba(255,255,255,0.07)",
                 border: "1px solid rgba(255,255,255,0.10)",
               }}
@@ -64,14 +64,14 @@ export default function SocialSidebar() {
               }}
             >
               <i
-                className={`${icon} text-[17px]`}
+                className={`${icon} text-[1.181vw]`}
                 style={{ color: "rgba(255,255,255,0.75)" }}
               />
  
               {/* Tooltip */}
               <span
-                className="pointer-events-none absolute left-[calc(100%+12px)] top-1/2 -translate-y-1/2
-                           whitespace-nowrap rounded px-[10px] py-1 text-[11px] text-white opacity-0
+                className="pointer-events-none absolute left-[calc(100%+0.833vw)] top-1/2 -translate-y-1/2
+                           whitespace-nowrap rounded px-[0.694vw] py-1 text-[0.764vw] text-white opacity-0
                            transition-opacity duration-200 group-hover:opacity-100"
                 style={{
                   background: "rgba(255,255,255,0.1)",
@@ -91,7 +91,7 @@ export default function SocialSidebar() {
         <div
           className="w-px"
           style={{
-            height: 24,
+            height: '1.667vw',
             background: "linear-gradient(to top, transparent, rgba(255,255,255,0.15))",
           }}
         />

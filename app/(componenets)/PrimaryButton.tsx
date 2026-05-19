@@ -29,11 +29,11 @@ export default function Button({
 
     const variants = {
         primary:
-            'bg-[#7C1874]  border-[#FF00EB] border-l-[3px] border-b shadow-md shadow-[#7C1874] rounded-full text-[#F3F3F3] font-neue-montreal font-[400] text-[16px] hover:opacity-90 px-[18px] py-[10px] flex items-center gap-2',
+            'bg-[#7C1874]  border-[#FF00EB] border-l-[3px] border-b shadow-md shadow-[#7C1874] rounded-full text-[#F3F3F3] font-neue-montreal font-[400] text-[1.111vw] hover:opacity-90 px-[1.25vw] py-[0.694vw] flex items-center gap-2',
         secondary:
             'bg-black text-white hover:bg-neutral-800',
         outline:
-            'bg-transparent shadow-lg border border-[#F3F3F3] rounded-[50px] text-[#F3F3F3] font-neue-montreal font-[400] text-[16px] hover:opacity-90 px-[18px] py-[10px] flex items-center gap-2',
+            'bg-transparent shadow-lg border border-[#F3F3F3] rounded-[3.472vw] text-[#F3F3F3] font-neue-montreal font-[400] text-[1.111vw] hover:opacity-90 px-[1.25vw] py-[0.694vw] flex items-center gap-2',
     }
 
     const styles = `${baseStyles} ${variants[variant]} ${className}`

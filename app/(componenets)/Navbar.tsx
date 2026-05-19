@@ -65,7 +65,7 @@ export default function Navbar() {
             px-10
             py-4
             backdrop-blur-xl
-            shadow-[0_0_30px_rgba(255,255,255,0.05)]
+            shadow-[0_0_2.083vw_rgba(255,255,255,0.05)]
 
             before:content-['']
             before:absolute
@@ -109,7 +109,7 @@ export default function Navbar() {
                             {/* Mega Menu */}
                             {megaMenu && (
                                 <div
-                                    className="absolute left-30 mx-auto top-[calc(100%+56px)] -translate-x-1/2 w-[90vw] z-99999 rounded-[28px] border border-white/10 bg-black/70 p-10 shadow-[0_0_80px_rgba(0,0,0,0.8)]"
+                                    className="absolute left-30 mx-auto top-[calc(100%+3.889vw)] -translate-x-1/2 w-[90vw] z-99999 rounded-[1.944vw] border border-white/10 bg-black/70 p-10 shadow-[0_0_5.556vw_rgba(0,0,0,0.8)]"
                                     onMouseEnter={openMenu}
                                     onMouseLeave={scheduleClose}
                                 >

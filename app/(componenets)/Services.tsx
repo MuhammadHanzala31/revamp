@@ -77,7 +77,7 @@ export default function ServicesNav() {
             <div className="flex flex-col md:flex-row gap-0 border-neutral-800">
                 <div className="md:w-1/2 border-b md:border-b-0 md:border-r border-neutral-800">
                     <Badge text='Our Services' />
-                    <h3 className='text-white my-8 font-aeonik text-[3.333vw] font-medium leading-[60px]'>
+                    <h3 className='text-white my-8 font-aeonik text-[3.333vw] font-medium leading-[4.167vw]'>
                         Our Services Are Built to Scale Your Revenue
                     </h3>
                     {services.map((service, i) => {
@@ -100,7 +100,7 @@ export default function ServicesNav() {
                                     }
 
                                     <span
-                                        className={`text-[48px]  font-medium tracking-tight transition-all font-neue-montreal duration-300 ${isActive ? "translate-x-1" : "group-hover:translate-x-1"
+                                        className={`text-[3.333vw]  font-medium tracking-tight transition-all font-neue-montreal duration-300 ${isActive ? "translate-x-1" : "group-hover:translate-x-1"
                                             }`}
                                     >
                                         {service.label}
@@ -117,7 +117,7 @@ export default function ServicesNav() {
                 <div className="md:w-1/2 md:pl-12 bg-[url(/services-before.png)] flex flex-col justify-center py-6">
                     {/* Active category label */}
                     <div className="flex items-center gap-2 mb-8">
-                        <span className="text-[16px] tracking-[0.25em] uppercase text-neutral-600">
+                        <span className="text-[1.111vw] tracking-[0.25em] uppercase text-neutral-600">
                             {active.label}
                         </span>
                         <span className="flex-1 h-px bg-neutral-800" />
